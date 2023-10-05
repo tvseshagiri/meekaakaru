@@ -20,7 +20,7 @@ function Greeting(props) {
 export default Greeting;
 
 // We can pass name from parent component
-<Greeting name="John" />
+<Greeting name="Janardhan" />
 ```
 - we can pass functions also as props 
 
@@ -29,6 +29,6 @@ const logGreeting = () => {
     console.log('Greeted')
 }
 
-<Greeting name="John" onGreet={logGreeting} />
+<Greeting name="Janardhan" onGreet={logGreeting} />
 
 ```

@@ -88,10 +88,10 @@ of the string.
 - Substitutions are delimited by an opening `${` and a closing `}` that can have any JavaScript expression inside.
 
 ```js []
-var term = "John";
+var term = "Keeravani";
 const url = `https://itunes.apple.com/search?term=${term}&media=music&limit=20`;
 console.log(url);
-// => https://itunes.apple.com/search?term=John&media=music&limit=20
+// => https://itunes.apple.com/search?term=keeravani&media=music&limit=20
 
 var a = 10;
 var b = 10;
@@ -118,12 +118,12 @@ console.log(`foo ${fn()} bar`);
 
 ```js []
 var user = {
-name: 'Max Mustermann'
+name: 'Laxman'
 };
 
 console.log(`Thanks for helping us, ${user.name.toUpperCase()}.`);
 
-// => "Thanks for helping us, MAX MUSTERMANN";
+// => "Thanks for helping us, LAXMAN";
 ```
 
 ---

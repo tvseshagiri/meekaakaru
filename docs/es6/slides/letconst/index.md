@@ -8,8 +8,8 @@
 ``` js []
 
 {
-  let name = "John";
-  console.log(name); // "John"
+  let name = "Janardhan";
+  console.log(name); // "Janardhan"
 }
 
 console.log(name); // ReferenceError: name is not defined
@@ -37,13 +37,13 @@ age = 26; // TypeError: Assignment to constant variable.
 
 ```js []
 function myFunction() {
-  var name = "John";
+  var name = "Janardhan";
 
   {
-    console.log(name); // "John"
+    console.log(name); // "Janardhan"
   }
 
-  console.log(name); // "John"
+  console.log(name); // "Janardhan"
 }
 
 myFunction();
