@@ -5,7 +5,7 @@
 
 #### DevOps Loop
 
-!['DevOps Loop'](./docs/devops/assets/devopsloop.jpg)
+!['DevOps Loop'](docs/devops/assets/devopsloop.jpg)
 
 ---
 
