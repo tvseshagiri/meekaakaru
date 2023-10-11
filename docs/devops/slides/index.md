@@ -114,19 +114,19 @@
 
 #### DevOps Java Toolchain
 
-!['DevOps Toolchain'](/docs/devops/assets/devopstoolchain.png)
+!['DevOps Toolchain'](https://tvseshagiri.github.io/meekaakaru/docs/devops/assets/devopstoolchain.png)
 
 ---
 
 #### DevOps Implementation Pattern
 
-!['DevOps Toolchain'](/docs/devops/assets/cicd.png)
+!['DevOps Toolchain'](https://tvseshagiri.github.io/meekaakaru/docs/devops/assets/cicd.png)
 
 ---
 
 #### DevOps Pipeline
 
-!['DevOps Pipeline'](/docs/devops/assets/pipeline.png)
+!['DevOps Pipeline'](https://tvseshagiri.github.io/meekaakaru/docs/devops/assets/pipeline.png)
 
 ---
 
