@@ -5,7 +5,7 @@
 
 #### DevOps Loop
 
-!['DevOps Loop'](https://tvseshagiri.github.io/meekaakaru/docs/devops/assets/devopsloop.png)
+!['DevOps Loop'](https://tvseshagiri.github.io/meekaakaru/docs/devops/assets/devopsloop.jpg)
 
 ---
 
