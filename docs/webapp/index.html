@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Java Web Development</title>
+    <base href="../../revealjs/">
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/black.css" id="theme">
+    <link rel="stylesheet" href="plugin/highlight/monokai.css">
+    <link rel="stylesheet" href="../assets/custom.css">
+
+
+</head>
+
+
+
+<body>
+
+    <div class="reveal">
+
+        <div class="slides">
+
+
+            <section id="main">
+                <h3>Java Web App Development</h3>
+
+                <table>
+                    <tr>
+                        <td style=" border-bottom: 0px;"><a href='#webapp'>Web Applications</a></td>
+                        <td style="border-bottom: 0px;"><a href='#forms'>HTML forms</a></td>
+                        <td style="border-bottom: 0px;"><a href='#servlets'>Servlets</a></td>
+                        <td style="border-bottom: 0px;"><a href='#jsps'>JSP</a></td>
+                    </tr>
+                    <tr>
+                        <td style="border-bottom: 0px;"><a href='#jstl'>JSTL</a></td>
+                        <td style="border-bottom: 0px;"><a href='#sessions'>Session Mgmt.</a></td>
+                        <td style="border-bottom: 0px;"><a href='#errorhand'>Error Handling</a>
+                        </td>
+                        <td style="border-bottom: 0px;"><a href='#war'>WAR Files</a></td>
+                    </tr>
+                    <tr>
+                        <td style="border-bottom: 0px;"><a href='#filters'>Servlet Filters</a></td>
+                        <td style="border-bottom: 0px;"><a href='#auth'>Authentication and Security</a></td>
+                        <td style="border-bottom: 0px;"><a href='#mvc'>MVC Architecture</a>
+                        </td>
+                        <td style="border-bottom: 0px;"><a href='#tomcat'>Tomcat</a></td>
+
+                    </tr>
+                </table>
+            </section>
+            <section id="webapp" data-markdown="../docs/webapp/slides/01-introwebapp.md" data-separator="^\n---\n$">
+            </section>
+            <section>
+                <h3><a href="#main">Back to Main</a></h3>
+            </section>
+            <section id="forms" data-markdown="../docs/webapp/slides/02-intohtml.md" data-separator="^\n---\n$">
+            </section>
+            <section>
+                <h3><a href="#main">Back to Main</a></h3>
+            </section>
+            <section id="servlets" data-markdown="../docs/webapp/slides/03-servlets.md" data-separator="^\n---\n$">
+            </section>
+            <section>
+                <h3><a href="#main">Back to Main</a></h3>
+            </section>
+            <section id="jsps" data-markdown="../docs/webapp/slides/04-jsps.md" data-separator="^\n---\n$">
+            </section>
+            <section>
+                <h3><a href="#main">Back to Main</a></h3>
+            </section>
+            <section id="jstl" data-markdown="../docs/webapp/slides/05-jstl.md" data-separator="^\n---\n$">
+            </section>
+            <section>
+                <h3><a href="#main">Back to Main</a></h3>
+            </section>
+            <section id="sessions" data-markdown="../docs/webapp/slides/07-httpsession.md" data-separator="^\n---\n$">
+            </section>
+            <section>
+                <h3><a href="#main">Back to Main</a></h3>
+            </section>
+            <section id="errorhand" data-markdown="../docs/webapp/slides/08-exceptionhandling.md"
+                data-separator="^\n---\n$">
+            </section>
+            <section>
+                <h3><a href="#main">Back to Main</a></h3>
+            </section>
+            <section id="war" data-markdown="../docs/webapp/slides/09-warfiles.md" data-separator="^\n---\n$">
+            </section>
+            <section>
+                <h3><a href="#main">Back to Main</a></h3>
+            </section>
+            <section id="filters" data-markdown="../docs/webapp/slides/10-filters.md" data-separator="^\n---\n$">
+            </section>
+            <section>
+                <h3><a href="#main">Back to Main</a></h3>
+            </section>
+            <section id="auth" data-markdown="../docs/webapp/slides/11-authen.md" data-separator="^\n---\n$">
+            </section>
+            <section>
+                <h3><a href="#main">Back to Main</a></h3>
+            </section>
+            <section id="mvc" data-markdown="../docs/webapp/slides/13-mvc.md" data-separator="^\n---\n$">
+            </section>
+            <section>
+                <h3><a href="#main">Back to Main</a></h3>
+            </section>
+            <section id="tomcat" data-markdown="../docs/webapp/slides/14-tomcat.md" data-separator="^\n---\n$">
+            </section>
+            <section>
+                <h3><a href="#main">Back to Main</a></h3>
+            </section>
+
+        </div>
+
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/math/math.js"></script>
+    <script src="plugin/zoom/zoom.js"></script>
+    <script>
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+
+            plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX, RevealZoom]
+        });
+    </script>
+
+</body>
+
+</html>
