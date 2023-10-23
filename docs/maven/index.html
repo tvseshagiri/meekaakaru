@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Introduction to Maven</title>
+    <base href="../../revealjs/">
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/black.css" id="theme">
+    <link rel="stylesheet" href="plugin/highlight/monokai.css">
+    <link rel="stylesheet" href="../assets/custom.css">
+
+
+</head>
+
+
+
+<body>
+
+    <div class="reveal">
+
+        <div class="slides">
+
+
+            <section id="main">
+                <h3>Introduction to Maven</h3>
+
+                <table>
+                    <tr>
+                        <td style=" border-bottom: 0px;"><a href='#whatis'>What is Maven?</a></td>
+                        <td style="border-bottom: 0px;"><a href='#basics'>Maven Basics</a></td>
+                        <td style="border-bottom: 0px;"><a href='#depen'>Dependencies</a></td>
+                        <td style="border-bottom: 0px;"><a href='#plugins'>Plugins</a></td>
+                    </tr>
+                    <tr>
+                        <td style=" border-bottom: 0px;"><a href='#pom'>pom.xml</a></td>
+                        <td style="border-bottom: 0px;"><a href='#profiles'>Profiles</a></td>
+                        <td style="border-bottom: 0px;"><a href='#multi'>Multi-Modules</a></td>
+                        <td style="border-bottom: 0px;"><a href='#best'>Best Practices</a></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" style="text-align: center;"><a href='#simplewebapp'>Simple Web App</a></td>
+                    </tr>
+                </table>
+            </section>
+            <section id="whatis" data-markdown="../docs/maven/slides/01-whatismaven.md" data-separator="^\n---\n$">
+            </section>
+            <section>
+                <h3><a href="#main">Back to Main</a></h3>
+            </section>
+            <section id="basics" data-markdown="../docs/maven/slides/02-mvnbasics.md" data-separator="^\n---\n$">
+            </section>
+            <section>
+                <h3><a href="#main">Back to Main</a></h3>
+            </section>
+            <section id="depen" data-markdown="../docs/maven/slides/03-dependencies.md" data-separator="^\n---\n$">
+            </section>
+            <section>
+                <h3><a href="#main">Back to Main</a></h3>
+            </section>
+            <section id="plugins" data-markdown="../docs/maven/slides/04-plugins.md" data-separator="^\n---\n$">
+            </section>
+            <section>
+                <h3><a href="#main">Back to Main</a></h3>
+            </section>
+            <section id="pom" data-markdown="../docs/maven/slides/pom.md" data-separator="^\n---\n$">
+            </section>
+            <section>
+                <h3><a href="#main">Back to Main</a></h3>
+            </section>
+            <section id="profiles" data-markdown="../docs/maven/slides/05-profiles.md" data-separator="^\n---\n$">
+            </section>
+            <section>
+                <h3><a href="#main">Back to Main</a></h3>
+            </section>
+            <section id="multi" data-markdown="../docs/maven/slides/07-multimodule.md" data-separator="^\n---\n$">
+            </section>
+            <section>
+                <h3><a href="#main">Back to Main</a></h3>
+            </section>
+            <section id="best" data-markdown="../docs/maven/slides/09-bestp.md" data-separator="^\n---\n$">
+            </section>
+            <section>
+                <h3><a href="#main">Back to Main</a></h3>
+            </section>
+            <section id="simplewebapp" data-markdown="../docs/maven/slides/simplewebapp.md" data-separator="^\n---\n$">
+            </section>
+            <section>
+                <h3><a href="#main">Back to Main</a></h3>
+            </section>
+
+
+
+        </div>
+
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/math/math.js"></script>
+    <script src="plugin/zoom/zoom.js"></script>
+    <script>
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+
+            plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX, RevealZoom]
+        });
+    </script>
+
+</body>
+
+</html>
