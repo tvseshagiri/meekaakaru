@@ -29,9 +29,22 @@
 
                 <table>
                     <tr>
-                        <td style="border-bottom: 0px;"><a href='#helloworld'>Getting Started</a></td>
+                        <td style="border-bottom: 0px; white-space: nowrap;"><a href='#intro'>Introduction</a></td>
+                        <td style="border-bottom: 0px; white-space: nowrap;"><a href='#helloworld'>Getting Started</a>
+                        </td>
                         <td style="border-bottom: 0px;"><a href='#components'>Components</a></td>
-                        <td style="border-bottom: 0px;"><a href='#props'>Props & State</a></td>
+                        <td style="border-bottom: 0px; white-space: nowrap;"><a href='#props'>Props & State</a></td>
+                    </tr>
+                    <tr>
+                        <td style="border-bottom: 0px;"><a href='#funda'>Fundamentals</a></td>
+                        <td style="border-bottom: 0px;"><a href='#style'>Styling</a></td>
+                        <td style="border-bottom: 0px;"><a href='#redux'>Redux</a></td>
+                        <td style="border-bottom: 0px;"><a href='#route'>Router</a></td>
+                    </tr>
+                    <tr>
+                        <td style="border-bottom: 0px; white-space: nowrap;" colspan="4"><a href='#testing'>Unit Testing
+                                with
+                                Jest</a></td>
                     </tr>
                 </table>
             </section>
@@ -52,6 +65,37 @@
             <section>
                 <h3><a href="#main">Back to Main</a></h3>
             </section>
+            <section id="intro" data-markdown="../docs/reactjs/slides/01-introtoreactjs.md" data-separator="^\n---\n$">
+            </section>
+            <section>
+                <h3><a href="#main">Back to Main</a></h3>
+            </section>
+            <section id="funda" data-markdown="../docs/reactjs/slides/02-fundamentals.md" data-separator="^\n---\n$">
+            </section>
+            <section>
+                <h3><a href="#main">Back to Main</a></h3>
+            </section>
+            <section id="style" data-markdown="../docs/reactjs/slides/03-styling.md" data-separator="^\n---\n$">
+            </section>
+            <section>
+                <h3><a href="#main">Back to Main</a></h3>
+            </section>
+            <section id="redux" data-markdown="../docs/reactjs/slides/04-redux.md" data-separator="^\n---\n$">
+            </section>
+            <section>
+                <h3><a href="#main">Back to Main</a></h3>
+            </section>
+            <section id="route" data-markdown="../docs/reactjs/slides/05-routing.md" data-separator="^\n---\n$">
+            </section>
+            <section>
+                <h3><a href="#main">Back to Main</a></h3>
+            </section>
+            <section id="testing" data-markdown="../docs/reactjs/slides/07-testing.md" data-separator="^\n---\n$">
+            </section>
+            <section>
+                <h3><a href="#main">Back to Main</a></h3>
+            </section>
+
         </div>
 
     </div>
@@ -68,6 +112,7 @@
             progress: true,
             history: true,
             center: true,
+            history: true,
 
             plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX, RevealZoom]
         });
